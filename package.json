@@ -1,0 +1,13 @@
+{
+  "name": "fairy-tail-magic-arena",
+  "version": "0.7.0",
+  "private": true,
+  "description": "Reference Edition V7: source-image-matched interactive UI and game artwork, character-specific spell FX, 3 collectible types, 3600px platform combat, PvP and AI",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

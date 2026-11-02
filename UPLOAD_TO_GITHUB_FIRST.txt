@@ -1,0 +1,9 @@
+FAIRY TAIL: MAGIC ARENA — ARCANUM REFORGED V6
+
+ZIP 파일을 업로드하지 말고 압축을 푼 폴더 안의 내용물을 업로드하세요.
+Github 첫 화면에 package.json, server.js, game.js, arena-map.js, public 폴더가 바로 보여야 합니다.
+
+Render 기존 fairy-tail-magic-arena 서버의 Settings → Root Directory는
+위 파일이 저장소 맨 위에 있으면 빈칸으로 설정하세요.
+
+자세한 안내는 README.md를 보세요.

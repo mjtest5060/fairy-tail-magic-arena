@@ -1,0 +1,91 @@
+/* FAIRY TAIL: MAGIC ARENA — ARCANUM REFORGED V6
+   Art-directed interface upgrade. All controls remain actual HTML buttons. */
+:root{--gold:#ffd58b;--gold2:#ad7234;--panel:#161626;--paper:#21192a;--text:#fff3df;--red:#d44c54;--blue:#77d7ff}
+html{scroll-padding-top:20px}
+body{background:radial-gradient(ellipse at 50% -16%,#5c3447 0,transparent 60%),linear-gradient(170deg,#120b1b 0%,#131624 55%,#0b0c13 100%)}
+body:before{background:repeating-linear-gradient(90deg,transparent 0 91px,#e2ba6e04 92px 93px),radial-gradient(circle at 90% 25%,#eebc6730 0 1px,transparent 2px);background-size:auto,33px 33px}
+#app{max-width:1700px;padding:10px 22px 24px}
+.topbar{padding:8px 4px 18px;margin-bottom:15px;border-bottom:1px solid #9b685a;filter:drop-shadow(0 3px 8px #0008)}
+.guild-mark{background:radial-gradient(circle,#aa484e,#521f33 65%);box-shadow:0 0 0 2px #241321,0 0 16px #ffb57655}
+.brand-main{font-size:25px;letter-spacing:3px;color:#fff1cd}
+.brand-sub{font-size:10px;color:#e8bd87}
+.brand-sub b{color:#ffad75}
+.page-kicker{font-size:10px;letter-spacing:.20em;color:#eac797}
+.masthead{height:570px!important;min-height:570px!important;border:4px solid #b58352!important;background-image:linear-gradient(90deg,#00000000 0%,#15102300 40%,#0f101ccf 58%,#111321fc 100%),url('/assets/v6/key_visual.webp'),url('/assets/stages/magnolia_concept_stage.webp')!important;background-size:cover,61% 100%,cover!important;background-position:center,left center,center!important;box-shadow:0 0 0 3px #392431,0 0 0 5px #81523d,0 18px 58px #05040adb!important}
+.masthead:before,.masthead:after{content:'✦';color:#ffd997;text-shadow:0 0 12px #e9a760}
+.mast-overlay{background:radial-gradient(ellipse at 28% 50%,transparent 10%,#0f101817 55%),linear-gradient(0deg,#080913bb,transparent 25%)!important}
+.mast-ornament{letter-spacing:1rem;color:#fff0c3}
+.mast-trim{height:7px;background:repeating-linear-gradient(90deg,#b16a3a 0 12px,#ffce79 12px 19px,#4a2533 19px 31px)}
+.v6-mast-content{max-width:none!important;margin-left:51%;padding:54px 4.3% 40px!important;text-align:center}
+.mast-battle-flag{font:900 12px Georgia,serif;letter-spacing:.40em;color:#e6b36c;margin-bottom:15px}
+.v6-mast-content .eyebrow{font-size:11px;color:#fbd696;letter-spacing:.33em}
+.logo-title{margin:15px 0 9px;line-height:.94;filter:drop-shadow(0 4px 2px #0009)}
+.logo-title span{font:900 clamp(37px,4.1vw,69px) Georgia,serif;letter-spacing:-.05em;color:#fff5d4;-webkit-text-stroke:1.3px #942f36;text-shadow:2px 3px 0 #470e21,4px 6px 0 #311020,0 0 19px #ffbe5660}
+.logo-title em{font:900 clamp(21px,2.05vw,39px) Georgia,serif;letter-spacing:.24em;color:#ffd49b;text-shadow:0 2px 0 #8c493a}
+.v3-mark{font:900 10px Georgia,serif;letter-spacing:.25em;color:#fde4ba;margin:10px auto;background:linear-gradient(90deg,transparent,#723739aa,transparent);padding:5px}
+.v3-mark b{font:900 20px Georgia;color:#ffca75}
+.tagline{font-size:12px;color:#d5c4c0;letter-spacing:.04em;margin:14px auto 18px;line-height:1.7}
+.v6-cta-list{display:flex!important;align-items:stretch;flex-direction:column;gap:9px!important;margin:16px auto 0!important;width:min(100%,410px)}
+.guild-menu{display:grid;grid-template-columns:40px 1fr 90px 14px;align-items:center;text-align:left;color:#f4e8dd;border:1px solid #d3a369;outline:1px solid #3f2a32;outline-offset:-5px;background:linear-gradient(125deg,#3c2834ed,#19182beb);box-shadow:inset 0 1px #fff5c72c,0 5px 0 #050b16bb;padding:11px 17px;min-height:51px;position:relative;clip-path:polygon(0 20%,4% 0,96% 0,100% 20%,100% 80%,96% 100%,4% 100%,0 80%)}
+.guild-menu:hover{transform:translateY(-2px);filter:brightness(1.22);box-shadow:0 0 24px #ffbc6455}
+.guild-menu-primary{background:linear-gradient(115deg,#ac3a38,#741e36 65%,#251529);border-color:#ffdf97;box-shadow:inset 0 1px #fff6b07e,0 5px #4c1827,0 0 24px #e654436b}
+.guild-menu-icon{font-size:23px;color:#ffe5ad;text-shadow:0 0 12px #faca76}
+.guild-menu>span:nth-child(2){font-weight:900;font-size:17px;letter-spacing:.05em}
+.guild-menu small{font:900 9px Georgia;color:#d4bda5;letter-spacing:.09em;text-align:right}
+.guild-menu b{font-size:18px;color:#ffe6ac}
+.mast-rule{position:relative!important;bottom:auto!important;justify-content:center!important;margin-top:25px!important;gap:7px!important}
+.mast-rule span{border:1px solid #a87c5980;background:#130e20b0;color:#d6b9a0;padding:6px 8px;font-size:9px}
+.section-heading{margin:38px 0 19px;gap:18px}
+.section-heading h2{font-size:23px;letter-spacing:.15em;color:#ffe2b0;text-shadow:0 0 16px #ec9f554e}
+.heading-line{max-width:330px;background:linear-gradient(90deg,transparent,#815333,#f3c88a)}
+.heading-emblem{font-size:20px;color:#e8b768}
+.setup{grid-template-columns:minmax(0,1.75fr) minmax(340px,.82fr);gap:20px}
+.panel{background:linear-gradient(150deg,#2d2337f5 0%,#161525f7 85%);border:2px solid #8e6546;box-shadow:inset 0 0 0 2px #291b2a,inset 0 0 0 4px #77543944,0 22px 43px #0009}
+.panel:before,.panel:after{font-size:13px;color:#ffe1a0}
+.showcase{padding:24px 20px}.show-head{margin-bottom:22px}.show-head h3{font-size:27px;color:#fff1da}
+.hero-card{min-height:366px;border:2px solid #a07a57!important;outline:2px solid #342436;outline-offset:-6px;background:radial-gradient(circle at 50% 20%,color-mix(in srgb,var(--hero),transparent 77%),transparent 57%),linear-gradient(180deg,#2d263c 0%,#101320 100%);box-shadow:0 8px 16px #000a;transition:transform .17s,box-shadow .17s;clip-path:polygon(0 3%,4% 0,96% 0,100% 3%,100% 97%,96% 100%,4% 100%,0 97%)}
+.hero-card:hover{transform:translateY(-8px) scale(1.015);box-shadow:0 14px 33px #000c,0 0 15px color-mix(in srgb,var(--hero),transparent 30%)}
+.hero-card.selected{border-color:#fff0b0!important;outline:2px solid #e4a34f;outline-offset:-6px;box-shadow:0 0 0 2px #d99b42,0 0 28px color-mix(in srgb,var(--hero),transparent 35%)}
+.hero-card .portrait-wrap{height:235px!important;border-bottom:4px solid var(--hero)}
+.hero-card .charart{height:235px!important;object-position:center 24%;filter:contrast(1.12) saturate(1.2)}
+.hero-card .portrait-wrap:after{background:linear-gradient(transparent 65%,#111221ca 100%)}
+.hero-card .preview-sprite{height:88px;right:-3px;bottom:-8px;filter:drop-shadow(0 0 6px var(--hero))}
+.hero-card .sel{top:8px;left:8px;padding:5px 9px;font-size:10px;background:linear-gradient(#ffeab3,#d8a15c);border:1px solid #ffefbe}
+.hero-card .charinfo{padding:15px 11px 6px}.hero-card h4{font-size:20px;color:#fff1df}.hero-card .role{font-size:11px;letter-spacing:.05em}.hero-card p{font-size:11px;min-height:43px}
+.show-foot{border-top:1px solid #b08b5c80;color:#f0d2ab}
+.character-spotlight{background:linear-gradient(110deg,#2d1a32db,#191924e8),url('/assets/stages/magnolia_concept_stage.webp') center/cover!important;border:1px solid #ac7954!important}
+.spotlight-name{color:#ffe9c2}.spotlight-meta{letter-spacing:.18em}
+.fight-teaser{background-image:linear-gradient(0deg,#120a1ad9,#211c2c22),url('/assets/stages/magnolia_concept_stage.webp');background-size:cover}
+.config{background:linear-gradient(150deg,#272138 0%,#161322 90%)}
+.config-title h2{color:#ffe6be;font-size:29px}.ai-arena-config{background:linear-gradient(145deg,#3a2238,#16243a 76%);border:2px solid #b8884d}
+.field input,.ai-opponent-field select{background:#0f1321!important;border:1px solid #846749!important;color:#fff2dd!important}
+.mode,.difficulty-grid button{border:1px solid #887052;background:linear-gradient(#322640,#141728)}.mode.selected,.difficulty-grid button.selected{background:linear-gradient(#84402e,#431e32);border-color:#ffe1a2;box-shadow:0 0 16px #faad4b30}
+.practice-button,.gold.primary{border-radius:0;clip-path:polygon(0 15%,3% 0,97% 0,100% 15%,100% 85%,97% 100%,3% 100%,0 85%)}
+.battle-top{background:linear-gradient(90deg,#1f182a,#341f2d,#141624);border-bottom:2px solid #e8bd7a;padding:11px 18px}
+.battle-center-label{font-size:20px!important;color:#ffe6b5;text-shadow:0 0 10px #e5a55e4d;letter-spacing:.10em}
+.v6-battle-tag{font:900 10px Georgia;color:#eed4a4;letter-spacing:.10em;border:1px solid #ac875d;padding:7px 11px;background:#4a2a35}
+.battlecanvas{border:4px solid #f4ce8d!important;box-shadow:0 0 0 2px #5a3140,0 0 0 4px #d79f5e,0 19px 55px #03050ed9!important}
+.v6-guild-rune{position:absolute;top:23%;left:50%;transform:translateX(-50%);font:200px Georgia;color:#fff7d308;text-shadow:0 0 42px #ffeabc20;pointer-events:none;z-index:1}
+.bottomhud{background:linear-gradient(180deg,#211a2b,#101221);gap:10px!important}
+.statpanel,.skillpanel,.chatpanel{border:1px solid #b18759!important;box-shadow:inset 0 0 0 2px #362433,0 0 0 1px #261522}
+.skill{position:relative;display:flex!important;align-items:center;justify-content:center;flex-direction:column;gap:5px;min-height:114px!important;background:radial-gradient(circle at 50% 0,#5d3854,transparent 74%),linear-gradient(#342336,#161626)!important;border:1px solid #b08252!important;overflow:hidden;transition:.12s}
+.skill:hover{transform:translateY(-3px);box-shadow:0 0 19px #d9ab6e44}
+.skill img{width:55px;height:55px;object-fit:contain;filter:drop-shadow(0 0 10px #eec17568)}
+.skill b{position:absolute;top:4px;left:5px;z-index:2;border:1px solid #ffe2a0!important;background:linear-gradient(#a37647,#754031)!important;color:#fff3d1!important;padding:4px 7px!important;line-height:1}
+.skill span{font-size:12px!important;color:#ffebc8;font-weight:900}
+.skill em{position:absolute!important;inset:0!important;background:#0c0d19b9!important;color:#ffe5bf!important;display:flex!important;align-items:center;justify-content:center;font-size:19px!important;font-weight:900}
+.skill em.hidden{display:none!important}
+.skill.ult-ready{border-color:#fff1a5!important;box-shadow:0 0 15px #f6c55f88;animation:ultimatePulse 1.25s ease-in-out infinite}
+@keyframes ultimatePulse{50%{box-shadow:0 0 27px #ffcf78d0}}
+.skillheader{border-bottom:1px solid #9a775d70;padding-bottom:9px}
+.roomplayers{gap:14px}.roombox{background:linear-gradient(130deg,#262037ed,#141a2bec),url('/assets/stages/magnolia_concept_stage.webp') center/cover}
+.roombox:before{color:#ffdb96}.lobby-stage-preview{height:210px;background-image:url('/assets/stages/magnolia_concept_stage.webp')!important;background-position:center 46%!important}
+.settings-panel{border:2px solid #d1a16b;box-shadow:0 0 0 3px #391f2e,0 25px 65px #000b}
+:focus-visible{outline:3px solid #ffe2a3!important;outline-offset:3px!important}
+@media(max-width:1100px){.v6-mast-content{margin-left:45%;padding:55px 3% 20px!important}.setup{grid-template-columns:minmax(0,1fr)}.hero-card .portrait-wrap{height:230px!important}.hero-card .charart{height:230px!important}.hero-card{min-height:344px}}
+@media(max-width:760px){#app{padding:8px 10px}.masthead{height:680px!important;min-height:680px!important;background-image:linear-gradient(180deg,#110b1500 0%,#0d10161c 30%,#10101ded 47%,#12111ffd 100%),url('/assets/v6/key_visual.webp'),url('/assets/stages/magnolia_concept_stage.webp')!important;background-size:cover,100% auto,cover!important;background-position:center,center top,center!important}.v6-mast-content{margin-left:0;padding:285px 18px 17px!important}.mast-battle-flag{display:none}.v6-mast-content .eyebrow{font-size:8px}.logo-title span{font-size:38px}.logo-title em{font-size:22px}.tagline{font-size:10px;margin:9px auto}.v6-cta-list{gap:6px!important;width:min(100%,340px)}.guild-menu{min-height:45px;padding:7px 12px;grid-template-columns:30px 1fr 80px 12px}.guild-menu>span:nth-child(2){font-size:14px}.guild-menu-icon{font-size:20px}.mast-rule{margin-top:13px!important;gap:5px!important}.mast-rule span{font-size:7px;padding:4px}.section-heading h2{font-size:16px}.setup{display:block}.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.hero-card{min-height:295px}.hero-card .portrait-wrap,.hero-card .charart{height:188px!important}.hero-card .preview-sprite{height:65px}.hero-card .charinfo{padding:8px}.hero-card h4{font-size:16px}.hero-card p{font-size:9px}.showcase,.config{padding:15px}.config{margin-top:14px}.v6-battle-tag{display:none}.battle-center-label{display:none}.battle-top{padding:8px}.skill{min-height:90px!important}.skill img{width:41px;height:41px}.skill span{font-size:9px!important}.lobby-stage-preview{height:145px}}
+@media(max-width:420px){.masthead{height:675px!important;min-height:675px!important}.v6-mast-content{padding-top:285px!important}.logo-title span{font-size:34px}.logo-title em{font-size:19px}.hero-card .portrait-wrap,.hero-card .charart{height:165px!important}.hero-card{min-height:276px}.hero-card h4{font-size:14px}.hero-card .role{font-size:9px}.skill{min-height:74px!important}.skill img{width:32px;height:32px}}
+
+/* Mobile title art already contains the illustrated logo; avoid redundant repeated headings. */
+@media(max-width:760px){.v6-mast-content .logo-title{display:none}.masthead{height:612px!important;min-height:612px!important}.v6-mast-content{padding-top:316px!important}.v3-mark{margin:12px auto 5px}.v6-cta-list{margin-top:16px!important}.mast-rule{display:none!important}}
+@media(max-width:420px){.masthead{height:607px!important;min-height:607px!important}}
