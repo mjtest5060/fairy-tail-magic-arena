@@ -1,8 +1,0 @@
-{
-  "name": "fairy-tail-magic-arena",
-  "version": "0.2.0",
-  "private": true,
-  "description": "Realtime pixel-art side-view multiplayer fighting fan game",
-  "scripts": { "start": "node server.js", "test": "node --test tests/*.test.js" },
-  "engines": { "node": ">=20" }
-}
